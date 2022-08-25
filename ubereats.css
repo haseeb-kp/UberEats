@@ -1,0 +1,354 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: 'Uber Move Text', sans-serif;
+                                                
+}
+.bg{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 50px;
+}
+
+.head-left{
+    
+    width: 27%;
+    height: 50px;
+    position: absolute;
+    top: 37px;
+    left: 47px;
+    
+}
+.menu{
+    
+    top: 9px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+.ubertext{
+    
+
+    top: 37px;
+    margin-left: 56px;
+    margin-top: -9px;
+}
+.head-right{
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    width: -32%;
+    height: 50px;
+    right: 146px;
+
+}
+.login{
+    position: sticky;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    top: 24px;
+    position: sticky;
+    color: black;
+    background-color: white;
+    border-color: white;
+    width: 89px;
+    height: 45px;
+    border-radius: 500px;
+    border: none;
+    
+}
+.signup{
+    position: absolute;
+    font-family: 'Uber Move Text', sans-serif;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 500px;
+    top: 2px;
+    width: 89px;
+    height: 44px;
+}
+.section2{
+    position: absolute;
+    top: 238px;
+    left: 50px;
+}
+.order{
+    font-size: 33px;
+    font-weight: 700;
+}
+.delivery{
+    box-sizing: border-box;
+    color: rgb(146, 143, 143);
+    margin-top: 29px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 484px;
+    height: 48px;
+    padding-right: -21px;
+    padding-left: 20px;
+    border-color: white;
+}
+.delivery2{
+    box-sizing: border-box;
+    margin-left: -33px;
+    color:black;
+    margin-top: 29px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+    padding-right: -21px;
+    padding-left: 20px;
+    border-color: white;
+}
+.find{
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    margin-top: 29px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 104px;
+    height: 52px;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+   
+}
+.line{
+    margin-top: 25px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: bold
+}
+.container2{
+    /* width: 100%;
+    height: 60px;
+    background-color: white; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.box1{
+    margin-left: 30px;
+    flex: 1;
+    order: 1;
+
+}
+.box2{
+    flex: 1;
+    order: 2;
+}
+.box3{
+    flex: 1;
+    order: 3;
+}
+.image{
+    height: 227px;
+    width: 407px;
+}
+.heading{
+ font-size: 17px;
+ padding-top: 10px
+}
+.line{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 0;
+}
+.cities{
+    margin-left: 30px;
+    margin-top: 61px;
+    font-size: 37px;
+    font-weight: bold;
+}
+.viewAll{
+    margin-top: -24px;
+    margin-left: 1150px;
+    font-size: 18px;
+    font-weight: 430;
+}
+.map{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.f1Main{
+    margin-top: 20px;
+    
+display: flex;
+flex-basis: auto;
+justify-content: space-around;
+font-size: 16px;
+font-weight: 400;
+}
+.f1{
+    
+    line-height: 2.5;
+}
+.countries{
+    margin-left: 95px;
+    margin-top: 50px;
+    font-size: 37px;
+    font-weight: bold;
+}
+.f2Main{
+    margin-top: 20px;
+    
+display: flex;
+flex-basis: auto;
+
+justify-content: space-around;
+font-size: 16px;
+font-weight: 400;
+}
+.f2{
+    padding-left: 0cm;
+    text-align: justify;
+    margin-left: -23px;
+    line-height: 2.5;
+}
+.f3{
+    box-sizing: border-box;
+    padding-left: 0cm;
+    text-align: justify;
+    margin-left: -15px;
+    line-height: 2.5;
+    
+}
+/* .f2Main div:last-child{
+    margin-left: auto;
+} */
+.one{
+    
+    margin-top: 53px;
+    
+    /* border: none; */
+}
+.footerTop{
+    margin-top: 53px;
+    margin-left: 30px;
+   display: flex;
+}
+.part1{
+    flex: 2;
+}
+.uberpng{
+    position: absolute;
+    margin-left: 70px;
+}
+.appStore{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+.play{
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 166px;
+    height: 109px;
+    width: 174px;
+}
+.part2{
+    flex: 1;
+    padding-left: 0cm;
+    align-self: 0;
+    margin-left: 301px;
+    line-height: 2.5;
+}
+.part3{
+    flex: 1;
+    padding-left: 4cm;
+    align-self: 0;
+    margin-left: -38px;
+    line-height: 2.5;
+    margin-right: 0px;
+    
+}
+.two{
+    position: absolute; 
+
+}
+.right1{
+ position: absolute;
+}
+.fb{
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 43px;
+    height: 31px;
+    width: 170px;
+}
+.twitter{
+    position: absolute;
+    margin-left: 146px;
+    margin-top: 49px;
+    height: 20px;
+    width: 20px;
+}
+.insta{
+    position: absolute;
+    margin-left: 191px;
+    margin-top: 51px;
+    height: 18px;
+    width: 21px;
+
+}
+.left1{
+    height: 100px;
+    margin-left: 710px;
+    margin-top: 50px;
+}
+.sectionOne{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 73px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 14px;
+
+}
+.infoPriv{
+    width: 130px;
+}
+.infoTerm{
+    width: 105px;
+}
+.infoPrice{
+    width: 100px;
+}
+.infoSell{
+    width: 200px;
+}
+.sectionTwo{
+    display: flex;
+    margin-left: -291px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.infoCaptcha{
+    width: 606px;
+    padding-left: 50px;
+}
+.infoName{
+    box-sizing: border-box;
+    width: 244px;
+    padding-left: 45px;
+}
